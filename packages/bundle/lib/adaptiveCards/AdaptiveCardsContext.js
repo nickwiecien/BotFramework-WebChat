@@ -1,0 +1,13 @@
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = require("react");
+
+var AdaptiveCardHostConfigContext = (0, _react.createContext)();
+var _default = AdaptiveCardHostConfigContext;
+exports.default = _default;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL3NyYy9hZGFwdGl2ZUNhcmRzL0FkYXB0aXZlQ2FyZHNDb250ZXh0LmpzIl0sIm5hbWVzIjpbIkFkYXB0aXZlQ2FyZEhvc3RDb25maWdDb250ZXh0Il0sIm1hcHBpbmdzIjoiOzs7Ozs7O0FBQUE7O0FBRUEsSUFBTUEsNkJBQTZCLEdBQUcsMkJBQXRDO2VBRWVBLDZCIiwic291cmNlUm9vdCI6ImJ1bmRsZTovLy8iLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBjcmVhdGVDb250ZXh0IH0gZnJvbSAncmVhY3QnO1xyXG5cclxuY29uc3QgQWRhcHRpdmVDYXJkSG9zdENvbmZpZ0NvbnRleHQgPSBjcmVhdGVDb250ZXh0KCk7XHJcblxyXG5leHBvcnQgZGVmYXVsdCBBZGFwdGl2ZUNhcmRIb3N0Q29uZmlnQ29udGV4dDtcclxuIl19

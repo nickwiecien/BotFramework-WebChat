@@ -1,0 +1,41 @@
+"use strict";
+
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _slicedToArray2 = _interopRequireDefault(require("@babel/runtime/helpers/slicedToArray"));
+
+var _botframeworkWebchatComponent = require("botframework-webchat-component");
+
+var _propTypes = _interopRequireDefault(require("prop-types"));
+
+var _react = _interopRequireDefault(require("react"));
+
+var _CommonCard = _interopRequireDefault(require("./CommonCard"));
+
+var useStyleSet = _botframeworkWebchatComponent.hooks.useStyleSet;
+
+var SignInCardAttachment = function SignInCardAttachment(_ref) {
+  var attachment = _ref.attachment;
+
+  var _useStyleSet = useStyleSet(),
+      _useStyleSet2 = (0, _slicedToArray2.default)(_useStyleSet, 1),
+      animationCardAttachmentStyleSet = _useStyleSet2[0].animationCardAttachment;
+
+  return _react.default.createElement("div", {
+    className: animationCardAttachmentStyleSet
+  }, _react.default.createElement(_CommonCard.default, {
+    attachment: attachment
+  }));
+};
+
+SignInCardAttachment.propTypes = {
+  attachment: _propTypes.default.any.isRequired
+};
+var _default = SignInCardAttachment;
+exports.default = _default;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3NyYy9hZGFwdGl2ZUNhcmRzL0F0dGFjaG1lbnQvU2lnbkluQ2FyZEF0dGFjaG1lbnQuanMiXSwibmFtZXMiOlsidXNlU3R5bGVTZXQiLCJob29rcyIsIlNpZ25JbkNhcmRBdHRhY2htZW50IiwiYXR0YWNobWVudCIsImFuaW1hdGlvbkNhcmRBdHRhY2htZW50U3R5bGVTZXQiLCJhbmltYXRpb25DYXJkQXR0YWNobWVudCIsInByb3BUeXBlcyIsIlByb3BUeXBlcyIsImFueSIsImlzUmVxdWlyZWQiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7O0FBQUE7O0FBQ0E7O0FBQ0E7O0FBRUE7O0lBRVFBLFcsR0FBZ0JDLG1DLENBQWhCRCxXOztBQUVSLElBQU1FLG9CQUFvQixHQUFHLFNBQXZCQSxvQkFBdUIsT0FBb0I7QUFBQSxNQUFqQkMsVUFBaUIsUUFBakJBLFVBQWlCOztBQUFBLHFCQUN3QkgsV0FBVyxFQURuQztBQUFBO0FBQUEsTUFDYkksK0JBRGEsb0JBQ3RDQyx1QkFEc0M7O0FBRy9DLFNBQ0U7QUFBSyxJQUFBLFNBQVMsRUFBRUQ7QUFBaEIsS0FDRSw2QkFBQyxtQkFBRDtBQUFZLElBQUEsVUFBVSxFQUFFRDtBQUF4QixJQURGLENBREY7QUFLRCxDQVJEOztBQVVBRCxvQkFBb0IsQ0FBQ0ksU0FBckIsR0FBaUM7QUFDL0JILEVBQUFBLFVBQVUsRUFBRUksbUJBQVVDLEdBQVYsQ0FBY0M7QUFESyxDQUFqQztlQUllUCxvQiIsInNvdXJjZVJvb3QiOiJidW5kbGU6Ly8vIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgaG9va3MgfSBmcm9tICdib3RmcmFtZXdvcmstd2ViY2hhdC1jb21wb25lbnQnO1xyXG5pbXBvcnQgUHJvcFR5cGVzIGZyb20gJ3Byb3AtdHlwZXMnO1xyXG5pbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnO1xyXG5cclxuaW1wb3J0IENvbW1vbkNhcmQgZnJvbSAnLi9Db21tb25DYXJkJztcclxuXHJcbmNvbnN0IHsgdXNlU3R5bGVTZXQgfSA9IGhvb2tzO1xyXG5cclxuY29uc3QgU2lnbkluQ2FyZEF0dGFjaG1lbnQgPSAoeyBhdHRhY2htZW50IH0pID0+IHtcclxuICBjb25zdCBbeyBhbmltYXRpb25DYXJkQXR0YWNobWVudDogYW5pbWF0aW9uQ2FyZEF0dGFjaG1lbnRTdHlsZVNldCB9XSA9IHVzZVN0eWxlU2V0KCk7XHJcblxyXG4gIHJldHVybiAoXHJcbiAgICA8ZGl2IGNsYXNzTmFtZT17YW5pbWF0aW9uQ2FyZEF0dGFjaG1lbnRTdHlsZVNldH0+XHJcbiAgICAgIDxDb21tb25DYXJkIGF0dGFjaG1lbnQ9e2F0dGFjaG1lbnR9IC8+XHJcbiAgICA8L2Rpdj5cclxuICApO1xyXG59O1xyXG5cclxuU2lnbkluQ2FyZEF0dGFjaG1lbnQucHJvcFR5cGVzID0ge1xyXG4gIGF0dGFjaG1lbnQ6IFByb3BUeXBlcy5hbnkuaXNSZXF1aXJlZFxyXG59O1xyXG5cclxuZXhwb3J0IGRlZmF1bHQgU2lnbkluQ2FyZEF0dGFjaG1lbnQ7XHJcbiJdfQ==
