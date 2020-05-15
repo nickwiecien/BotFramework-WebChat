@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://microsoft.github.io/BotFramework-WebChat/04.api/e.piping-to-redux/",
   "dependencies": {
-    "botframework-webchat": "^4.7.1",
+    "botframework-webchat": "git+https://github.com/nickwiecien/BotFramework-WebChat.git",
     "react": "16.12.0",
     "react-dom": "16.12.0",
     "react-redux": "^7.1.3",
