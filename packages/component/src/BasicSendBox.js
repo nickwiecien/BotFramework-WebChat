@@ -10,6 +10,7 @@ import SendButton from './SendBox/SendButton';
 import SuggestedActions from './SendBox/SuggestedActions';
 import TextBox from './SendBox/TextBox';
 import UploadButton from './SendBox/UploadButton';
+import QRButton from './SendBox/QRButton';
 import useActivities from './hooks/useActivities';
 import useDirection from './hooks/useDirection';
 import useDictateState from './hooks/useDictateState';
@@ -60,6 +61,7 @@ const BasicSendBox = ({ className }) => {
       <SuggestedActions />
       <div className="main">
         {!hideUploadButton && <UploadButton />}
+        {<QRButton/>}
         {speechInterimsVisible ? (
           <DictationInterims className={DICTATION_INTERIMS_CSS + ''} />
         ) : (
